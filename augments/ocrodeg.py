@@ -6,7 +6,7 @@ from PIL import Image
 from torch import nn
 from torchvision import transforms
 
-from htr.data.augmentation import ocrodeg_utils
+from augments import ocrodeg_utils
 
 
 # data augmentation based on https://github.com/NVlabs/ocrodeg
